@@ -298,21 +298,7 @@ Iron rules: 3 fields not merged / no first-frame conflict / sound explicit / Eng
 
 ---
 
-## 15. Visual assets (图文素材 — for X / Reddit hooks)
-
-Three ready-to-post vector cards (1080×1080) live in this repo, built to pull attention and drive repo visits. All CC-BY-4.0; repost freely with attribution.
-
-| File | Use |
-|---|---|
-| `cheatsheet.svg` | One-page cheat sheet — the densest collection bait |
-| `structure-contrast.svg` | Wrong vs right prompt wiring — concept hook |
-| `before-after.svg` | Weak-prompt render vs structured-prompt render — proof hook (real frames embedded) |
-
-Tip: browsers render SVG crisply; screenshot to PNG (or convert) before posting to X / Reddit. No AI-generated imagery is used — these are pure vector plus real renders, so text stays sharp.
-
----
-
-## 16. License & attribution
+## 15. License & attribution
 
 - **License**: CC-BY-4.0. Free to copy, adapt, redistribute; attribution to source required.
 - **Attribution**: This spec adapts MiniMax's official `MiniMax-AI/MiniMax-H3` video prompt guide and community practice. It is an unofficial community productivity layer.
