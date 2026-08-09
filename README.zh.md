@@ -298,21 +298,7 @@ A low sustained cello drone with a slow building timpani pulse.
 
 ---
 
-## 15. 图文素材（X / Reddit 引流用）
-
-仓库内附三张可直接发的矢量卡片（1080×1080），用于吸睛并导流到本仓库。均为 CC-BY-4.0，署名后可自由转发。
-
-| 文件 | 用途 |
-|---|---|
-| `cheatsheet.svg` | 一页速查表，密度最高的收藏诱饵 |
-| `structure-contrast.svg` | 错误结构 vs 正确结构，概念钩子 |
-| `before-after.svg` | 弱提示词出片 vs 结构化提示词出片，实证钩子（已嵌真实帧） |
-
-提示：浏览器渲染 SVG 最保真，发 X / Reddit 前截图导出 PNG（或转格式）。不含 AI 生图，纯矢量加真实出片，文字始终清晰。
-
----
-
-## 16. 许可证与署名
+## 15. 许可证与署名
 
 - **License**：CC-BY-4.0。可自由复制、改编、再分发，需署名来源。
 - **署名**：本规范改编自 MiniMax 官方 `MiniMax-AI/MiniMax-H3` 视频提示词指南及社区实践，本文件为社区生产力整理层，非官方文档。
