@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" font-family="'Helvetica Neue',Arial,sans-serif">
+  <rect width="1080" height="1350" fill="#161616"/>
+  <rect x="0" y="0" width="1080" height="6" fill="#C9A86A"/>
+
+  <text x="60" y="82" fill="#EDE9E0" font-size="40" font-weight="700">MiniMax H3 Prompt Spec</text>
+  <text x="60" y="118" fill="#9A958C" font-size="22">Cheat Sheet · copy-paste productivity</text>
+
+  <!-- 1 STRUCTURE -->
+  <text x="60" y="172" fill="#C9A86A" font-size="20" font-weight="700" letter-spacing="2">1 · THREE-FIELD STRUCTURE</text>
+  <rect x="60" y="188" width="960" height="64" rx="10" fill="#1F1F1F" stroke="#33312C"/>
+  <text x="80" y="218" fill="#EDE9E0" font-size="20" font-family="monospace">integrated_multimodal_description</text>
+  <text x="80" y="240" fill="#9A958C" font-size="16">visuals + action + dialogue + camera, narrated in time order</text>
+
+  <rect x="60" y="262" width="960" height="64" rx="10" fill="#1F1F1F" stroke="#33312C"/>
+  <text x="80" y="292" fill="#EDE9E0" font-size="20" font-family="monospace">overall_soundscape</text>
+  <text x="80" y="314" fill="#9A958C" font-size="16">1-4 sentences, environment + physical sound, NO dialogue lines</text>
+
+  <rect x="60" y="336" width="960" height="64" rx="10" fill="#1F1F1F" stroke="#33312C"/>
+  <text x="80" y="366" fill="#EDE9E0" font-size="20" font-family="monospace">non_diegetic_music</text>
+  <text x="80" y="388" fill="#9A958C" font-size="16">concrete instruments + tempo, or N/A. No abstract mood words</text>
+
+  <text x="60" y="436" fill="#9A958C" font-size="17">Three fields joined with a blank line between each. Merge them and the audio track collapses.</text>
+
+  <!-- 2 ALIGNMENT -->
+  <text x="60" y="486" fill="#C9A86A" font-size="20" font-weight="700" letter-spacing="2">2 · FRAME ALIGNMENT (I2VA / L2VA / FL2VA)</text>
+  <rect x="60" y="502" width="960" height="74" rx="10" fill="#211C12" stroke="#4A3D22"/>
+  <text x="80" y="534" fill="#E6D2A8" font-size="17" font-family="monospace">For the target video, at 0.00 seconds into the target video,</text>
+  <text x="80" y="560" fill="#E6D2A8" font-size="17" font-family="monospace">&lt;Picture 1&gt; (from [Shot 1]) is fully referenced.</text>
+  <text x="60" y="602" fill="#9A958C" font-size="17">Put this verbatim at the very top. Skip it and the first frame unlocks (face swap).</text>
+
+  <!-- 3 CAMERA -->
+  <text x="60" y="650" fill="#C9A86A" font-size="20" font-weight="700" letter-spacing="2">3 · CAMERA MOTION</text>
+  <text x="60" y="680" fill="#EDE9E0" font-size="18">Write as: type + amplitude + speed, folded into a sentence.</text>
+  <rect x="60" y="696" width="960" height="56" rx="10" fill="#1F1F1F" stroke="#33312C"/>
+  <text x="80" y="730" fill="#EDE9E0" font-size="17" font-family="monospace">The camera performs a slow-speed, small-amplitude push in toward her face.</text>
+  <text x="60" y="778" fill="#9A958C" font-size="17">H3 ignores [Zoom in] bracket tags. Brackets are only for [Shot N].</text>
+
+  <!-- 4 LIMITS -->
+  <text x="60" y="826" fill="#C9A86A" font-size="20" font-weight="700" letter-spacing="2">4 · DENSITY LIMITS</text>
+  <rect x="60" y="842" width="300" height="58" rx="10" fill="#1F1F1F" stroke="#33312C"/>
+  <text x="210" y="877" fill="#EDE9E0" font-size="18" text-anchor="middle">≤ 3 action beats / 5s</text>
+  <rect x="390" y="842" width="300" height="58" rx="10" fill="#1F1F1F" stroke="#33312C"/>
+  <text x="540" y="877" fill="#EDE9E0" font-size="18" text-anchor="middle">≤ 20 words dialogue / 15s</text>
+  <rect x="720" y="842" width="300" height="58" rx="10" fill="#1F1F1F" stroke="#33312C"/>
+  <text x="870" y="877" fill="#EDE9E0" font-size="18" text-anchor="middle">timestamps MM:SS.mmm ↑</text>
+
+  <!-- 5 MUSIC -->
+  <text x="60" y="944" fill="#C9A86A" font-size="20" font-weight="700" letter-spacing="2">5 · MUSIC FIELD</text>
+  <text x="60" y="974" fill="#C9665B" font-size="18">Banned: emotional · epic · melancholic · cinematic mood</text>
+  <text x="60" y="1002" fill="#EDE9E0" font-size="18">Write concrete instruments + tempo, or just N/A.</text>
+
+  <!-- IRON RULES -->
+  <text x="60" y="1056" fill="#C9A86A" font-size="20" font-weight="700" letter-spacing="2">IRON RULES</text>
+  <text x="60" y="1088" fill="#EDE9E0" font-size="18">• three fields, never merged into one block</text>
+  <text x="60" y="1118" fill="#EDE9E0" font-size="18">• never contradict the first frame</text>
+  <text x="60" y="1148" fill="#EDE9E0" font-size="18">• sound must be explicit (model will not guess)</text>
+  <text x="60" y="1178" fill="#EDE9E0" font-size="18">• write the entire prompt in English</text>
+
+  <line x1="60" y1="1240" x2="1020" y2="1240" stroke="#3A3A3A"/>
+  <text x="60" y="1282" fill="#EDE9E0" font-size="19" font-weight="700">github.com/minhchee/minimax-h3-prompt-spec</text>
+  <text x="60" y="1314" fill="#9A958C" font-size="16">CC-BY-4.0 · unofficial community layer, adapted from MiniMax official guide</text>
+</svg>
