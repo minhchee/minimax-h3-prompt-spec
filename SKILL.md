@@ -308,14 +308,14 @@ non_diegetic_music: A low sustained cello drone with a slow building timpani pul
 铁律: 三段不并 / 不冲突首帧 / 声音显式 / 全英文
 ```
 
-## 16. 本地 ComfyUI 执行链路（头儿环境）
+## 16. 本地 ComfyUI 执行链路（本地环境）
 
 执行部分已独立成 skill `comfyui-minimax-h3-i2v`（自带 UI→API 转换器资产与故障排查），本 skill 只管提示词。
 
-- 工作流：`D:/Users/MinhChee/Downloads/video_minimax_h3_i2v.json`（含 subgraph）
-- 转换器脚本（固化版）：`~/.workbuddy/skills/comfyui-minimax-h3-i2v/assets/gen_video.py`
+- 工作流：`<你的 ComfyUI 工作流目录>/video_minimax_h3_i2v.json`（含 subgraph）
+- 转换器脚本（固化版）：`<WORKBUDDY_SKILLS_DIR>/comfyui-minimax-h3-i2v/assets/gen_video.py`
 - 模型：minimax_h3_fl2va_pruned_int8_convrot / qwen3vl_32b_minimax_h3_nvfp4_awq / minimax_h3_video_vae_fp16 / minimax_h3_audio_vae_fp32
-- 输入图放 `F:/ComfyUI/ComfyUI/input/bubu_selfie.png`
+- 输入图放 `<你的 ComfyUI input 目录>/your_input_image.png`
 - 实测出片：576×768 / 124 帧 @24fps / ~5.2s / AAC 32kHz 立体声
 
-> 注意：凡事实/版本/兼容性拿不准的，先交叉验证再下结论（见用户长期记忆第 12 条）。本 skill 2026-08-13 已据全网官方+社区资料复核，并据开源规范 `minimax-h3-prompt-spec` 补齐 5 模式模板、对照范例、起飞前检查单与一页速查。
+> 注意：凡事实/版本/兼容性拿不准的，先交叉验证再下结论。本 skill 2026-08-13 已据全网官方+社区资料复核，并据开源规范 `minimax-h3-prompt-spec` 补齐 5 模式模板、对照范例、起飞前检查单与一页速查。
